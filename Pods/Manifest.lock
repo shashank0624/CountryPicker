@@ -1,0 +1,12 @@
+PODS:
+  - MRCountryPicker (0.0.7)
+
+DEPENDENCIES:
+  - MRCountryPicker (~> 0.0.7)
+
+SPEC CHECKSUMS:
+  MRCountryPicker: 75edb510153ef446ded70890bc02140a757961dc
+
+PODFILE CHECKSUM: fbacd09c765fe6a10a9df7fab711519fa4ad12f8
+
+COCOAPODS: 1.1.1
