@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A7FC759200F2951001C8607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC758200F2951001C8607 /* AppDelegate.swift */; };
+		8A7FC75B200F2951001C8607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC75A200F2951001C8607 /* ViewController.swift */; };
+		8A7FC75E200F2951001C8607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FC75C200F2951001C8607 /* Main.storyboard */; };
+		8A7FC760200F2951001C8607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FC75F200F2951001C8607 /* Assets.xcassets */; };
+		8A7FC763200F2951001C8607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FC761200F2951001C8607 /* LaunchScreen.storyboard */; };
+		8A7FC76E200F2951001C8607 /* CountryPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC76D200F2951001C8607 /* CountryPickerTests.swift */; };
+		8A7FC779200F2951001C8607 /* CountryPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC778200F2951001C8607 /* CountryPickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A7FC76A200F2951001C8607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A7FC74D200F2951001C8607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7FC754200F2951001C8607;
+			remoteInfo = CountryPicker;
+		};
+		8A7FC775200F2951001C8607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A7FC74D200F2951001C8607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7FC754200F2951001C8607;
+			remoteInfo = CountryPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A7FC755200F2951001C8607 /* CountryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7FC758200F2951001C8607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A7FC75A200F2951001C8607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A7FC75D200F2951001C8607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A7FC75F200F2951001C8607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A7FC762200F2951001C8607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A7FC764200F2951001C8607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7FC769200F2951001C8607 /* CountryPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7FC76D200F2951001C8607 /* CountryPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerTests.swift; sourceTree = "<group>"; };
+		8A7FC76F200F2951001C8607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7FC774200F2951001C8607 /* CountryPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7FC778200F2951001C8607 /* CountryPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUITests.swift; sourceTree = "<group>"; };
+		8A7FC77A200F2951001C8607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A7FC752200F2951001C8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC766200F2951001C8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC771200F2951001C8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A7FC74C200F2951001C8607 = {
+			isa = PBXGroup;
+			children = (
+				8A7FC757200F2951001C8607 /* CountryPicker */,
+				8A7FC76C200F2951001C8607 /* CountryPickerTests */,
+				8A7FC777200F2951001C8607 /* CountryPickerUITests */,
+				8A7FC756200F2951001C8607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7FC756200F2951001C8607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7FC755200F2951001C8607 /* CountryPicker.app */,
+				8A7FC769200F2951001C8607 /* CountryPickerTests.xctest */,
+				8A7FC774200F2951001C8607 /* CountryPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A7FC757200F2951001C8607 /* CountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8A7FC758200F2951001C8607 /* AppDelegate.swift */,
+				8A7FC75A200F2951001C8607 /* ViewController.swift */,
+				8A7FC75C200F2951001C8607 /* Main.storyboard */,
+				8A7FC75F200F2951001C8607 /* Assets.xcassets */,
+				8A7FC761200F2951001C8607 /* LaunchScreen.storyboard */,
+				8A7FC764200F2951001C8607 /* Info.plist */,
+			);
+			path = CountryPicker;
+			sourceTree = "<group>";
+		};
+		8A7FC76C200F2951001C8607 /* CountryPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A7FC76D200F2951001C8607 /* CountryPickerTests.swift */,
+				8A7FC76F200F2951001C8607 /* Info.plist */,
+			);
+			path = CountryPickerTests;
+			sourceTree = "<group>";
+		};
+		8A7FC777200F2951001C8607 /* CountryPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A7FC778200F2951001C8607 /* CountryPickerUITests.swift */,
+				8A7FC77A200F2951001C8607 /* Info.plist */,
+			);
+			path = CountryPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7FC754200F2951001C8607 /* CountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7FC77D200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPicker" */;
+			buildPhases = (
+				8A7FC751200F2951001C8607 /* Sources */,
+				8A7FC752200F2951001C8607 /* Frameworks */,
+				8A7FC753200F2951001C8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryPicker;
+			productName = CountryPicker;
+			productReference = 8A7FC755200F2951001C8607 /* CountryPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A7FC768200F2951001C8607 /* CountryPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7FC780200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPickerTests" */;
+			buildPhases = (
+				8A7FC765200F2951001C8607 /* Sources */,
+				8A7FC766200F2951001C8607 /* Frameworks */,
+				8A7FC767200F2951001C8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A7FC76B200F2951001C8607 /* PBXTargetDependency */,
+			);
+			name = CountryPickerTests;
+			productName = CountryPickerTests;
+			productReference = 8A7FC769200F2951001C8607 /* CountryPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A7FC773200F2951001C8607 /* CountryPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7FC783200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPickerUITests" */;
+			buildPhases = (
+				8A7FC770200F2951001C8607 /* Sources */,
+				8A7FC771200F2951001C8607 /* Frameworks */,
+				8A7FC772200F2951001C8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A7FC776200F2951001C8607 /* PBXTargetDependency */,
+			);
+			name = CountryPickerUITests;
+			productName = CountryPickerUITests;
+			productReference = 8A7FC774200F2951001C8607 /* CountryPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A7FC74D200F2951001C8607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shashank Panwar";
+				TargetAttributes = {
+					8A7FC754200F2951001C8607 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8A7FC768200F2951001C8607 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A7FC754200F2951001C8607;
+					};
+					8A7FC773200F2951001C8607 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A7FC754200F2951001C8607;
+					};
+				};
+			};
+			buildConfigurationList = 8A7FC750200F2951001C8607 /* Build configuration list for PBXProject "CountryPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A7FC74C200F2951001C8607;
+			productRefGroup = 8A7FC756200F2951001C8607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A7FC754200F2951001C8607 /* CountryPicker */,
+				8A7FC768200F2951001C8607 /* CountryPickerTests */,
+				8A7FC773200F2951001C8607 /* CountryPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A7FC753200F2951001C8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7FC763200F2951001C8607 /* LaunchScreen.storyboard in Resources */,
+				8A7FC760200F2951001C8607 /* Assets.xcassets in Resources */,
+				8A7FC75E200F2951001C8607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC767200F2951001C8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC772200F2951001C8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A7FC751200F2951001C8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7FC75B200F2951001C8607 /* ViewController.swift in Sources */,
+				8A7FC759200F2951001C8607 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC765200F2951001C8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7FC76E200F2951001C8607 /* CountryPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7FC770200F2951001C8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7FC779200F2951001C8607 /* CountryPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A7FC76B200F2951001C8607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7FC754200F2951001C8607 /* CountryPicker */;
+			targetProxy = 8A7FC76A200F2951001C8607 /* PBXContainerItemProxy */;
+		};
+		8A7FC776200F2951001C8607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7FC754200F2951001C8607 /* CountryPicker */;
+			targetProxy = 8A7FC775200F2951001C8607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A7FC75C200F2951001C8607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7FC75D200F2951001C8607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A7FC761200F2951001C8607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7FC762200F2951001C8607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A7FC77B200F2951001C8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A7FC77C200F2951001C8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A7FC77E200F2951001C8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountryPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A7FC77F200F2951001C8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountryPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8A7FC781200F2951001C8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountryPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryPicker.app/CountryPicker";
+			};
+			name = Debug;
+		};
+		8A7FC782200F2951001C8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountryPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryPicker.app/CountryPicker";
+			};
+			name = Release;
+		};
+		8A7FC784200F2951001C8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CountryPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountryPicker;
+			};
+			name = Debug;
+		};
+		8A7FC785200F2951001C8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CountryPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kayosys.CountryPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountryPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A7FC750200F2951001C8607 /* Build configuration list for PBXProject "CountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7FC77B200F2951001C8607 /* Debug */,
+				8A7FC77C200F2951001C8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7FC77D200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7FC77E200F2951001C8607 /* Debug */,
+				8A7FC77F200F2951001C8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A7FC780200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7FC781200F2951001C8607 /* Debug */,
+				8A7FC782200F2951001C8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A7FC783200F2951001C8607 /* Build configuration list for PBXNativeTarget "CountryPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7FC784200F2951001C8607 /* Debug */,
+				8A7FC785200F2951001C8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A7FC74D200F2951001C8607 /* Project object */;
+}
